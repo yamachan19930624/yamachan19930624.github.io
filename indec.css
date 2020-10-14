@@ -1,0 +1,264 @@
+@charset "UTF-8";
+body {
+  color: #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    width: 767px;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.image-iikanji-bgimage {
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-image: url(../images/tanabata-header.png);
+  background-repeat: no-repeat;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.container {
+  width: 980px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 767px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.clear::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  padding: 20px 0;
+  background-color: #d2f3d6;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    padding: 30px 0 15px;
+  }
+}
+
+.header_left {
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .header_left {
+    float: none;
+    margin-left: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.header_title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .header_title {
+    font-size: 30px;
+  }
+}
+
+.header_right {
+  float: right;
+}
+
+@media screen and (max-width: 767px) {
+  .header_right {
+    float: none;
+    margin-left: 90px;
+    font-size: 18px;
+  }
+}
+
+.header_right ul li {
+  float: left;
+  margin-left: 50px;
+}
+
+.header_right ul li:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.header_right ul li a {
+  font-weight: 600px;
+  font-size: 16px;
+  line-height: 36px;
+}
+
+.section {
+  padding: 60px;
+}
+
+.section_title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.design_title {
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.design_text {
+  margin-bottom: 20px;
+}
+
+.stitch {
+  color: #fcff55;
+  padding: 20px;
+  font-size: 22px;
+  border: 2px dashed #F7F9CC;
+  border-radius: 10px;
+  position: absolute;
+  /*絶対配置*/
+  right: 45%;
+  top: 200px;
+  width: 40%;
+  height: 250px;
+}
+
+@media screen and (max-width: 767px) {
+  .stitch {
+    border: none;
+    font-size: 15px;
+  }
+}
+
+.gazou {
+  position: relative;
+  /*相対配置*/
+}
+
+.second {
+  background-color: #d2f3d6;
+}
+
+.second_left {
+  float: left;
+  width: 48%;
+}
+
+.second_right {
+  float: right;
+  width: 48%;
+}
+
+.design {
+  background-color: #d2f3d6;
+}
+
+.design_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.design_item {
+  width: 48%;
+}
+
+.rails_wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rails_item {
+  width: 48%;
+}
+
+.contact {
+  background-color: #d2f3d6;
+}
+
+.contact_message {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+input[type="email"] {
+  width: 600px;
+  border: 4px solid #edf3d2;
+  font-size: 16px;
+  margin: auto;
+  display: block;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 20px 50px;
+  display: inline-block;
+  background-color: #fcff55;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.btn_register {
+  background-color: #fcff55;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  background-color: #fcff55;
+  padding: 20px 0;
+}
+
+footer p {
+  text-align: center;
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */
